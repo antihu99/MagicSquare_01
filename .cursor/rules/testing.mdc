@@ -1,0 +1,16 @@
+---
+description: MagicSquare Java 테스트 규칙
+globs: **/*Test.java
+alwaysApply: false
+---
+
+# 테스트
+
+- JUnit 5를 사용한다.
+- AAA 패턴을 사용한다: Arrange, Act, Assert.
+- 테스트 클래스 이름은 반드시 `Test`로 끝나야 한다.
+- 테스트 메서드 이름은 검증하는 동작을 명확히 설명해야 한다.
+- 공유 설정이 실제로 불변인 경우가 아니라면 테스트 fixture는 각 테스트 안에 둔다.
+- 테스트마다 필요한 설정은 `@BeforeEach`를 사용한다.
+- 비용이 크고 불변인 설정에만 `@BeforeAll`을 사용한다.
+- 변경된 프로덕션 코드의 최소 커버리지는 80%로 유지한다.

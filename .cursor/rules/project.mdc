@@ -1,0 +1,12 @@
+---
+description: MagicSquare Java 프로젝트 개요
+alwaysApply: true
+---
+
+# 프로젝트
+
+- 프로젝트 이름: `MagicSquare_01`
+- 도메인: MagicSquare
+- 언어: Java
+- 목표: TDD와 ECB 패턴을 기반으로 유지보수 가능한 마방진 프로그램을 작성한다.
+- 성급한 추상화보다 단순한 도메인 객체와 명시적인 규칙을 우선한다.

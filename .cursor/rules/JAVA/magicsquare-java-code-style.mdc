@@ -1,0 +1,17 @@
+---
+description: Java 스타일(Google Java Style, Java 17+, 명시적 타입, Javadoc)
+globs: "**/*.java"
+alwaysApply: false
+---
+
+# Java 코드 스타일 (MagicSquare)
+
+- **Java**: 17 이상
+- **스타일**: Google Java Style 준수
+- **타입**: 모든 필드, 메서드 파라미터, 반환값에 명시적인 Java 타입을 사용한다.
+- **Javadoc**: 모든 public 클래스, public 생성자, public 메서드에 작성한다.
+- **최대 줄 길이**: 가능한 경우 100자 이하를 유지한다.
+- **포매터**: 프로젝트에서 선택한 Java formatter를 일관되게 적용한다.
+- **import**: 사용하지 않는 import 금지, 와일드카드 import 금지, 순환 의존 금지
+- **접근 제어자**: 프로덕션 클래스, 필드, 생성자, 메서드의 접근 제어자를 명시한다.
+- **불변성**: entity 값 객체는 가능한 한 `final` 필드와 생성자 검증으로 불변성을 유지한다.
