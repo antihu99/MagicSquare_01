@@ -11,3 +11,5 @@ Author : 김경림 , Viewer : 김대경 강사, 최혁성
     3. tdd_rules와 forbidden 규칙 간의 충돌
     4. Cursor AI가 실제로 따를 수 없는 ai_behavior 규칙 문제점만 보고해줘. 
 ```
+
+2. GITHUB 연결하기
